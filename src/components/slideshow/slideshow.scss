@@ -1,0 +1,31 @@
+.btn1{
+    background-color: orangered;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.btn2{
+    background-color:transparent;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: white;
+    
+    cursor: pointer;
+}
+.corouselimg{
+    filter: brightness(70%);
+    height: 650px;
+   
+   
+    max-width :100%   !important ;
+   
+    object-fit: cover      !important ;
+    position: relative       !important ;
+
+}
+.caption{
+  margin-bottom: 200px; 
+}

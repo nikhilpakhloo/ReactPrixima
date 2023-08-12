@@ -1,0 +1,42 @@
+header{
+    width: 100%;
+    height: 30px;
+    background-color: orangered;
+    color: white;
+    display: flex;
+    
+    .left-h{
+        width: 50%;
+        height: inherit;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+       
+            
+        }
+         h3{
+            font-size: 12px;
+            margin-right: 10px;
+        }
+         
+           svg{
+            margin-right: 10px;
+           }
+      
+        
+    }
+    .right-h{
+        width: 50%;
+        height: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+    }
+    @media (max-width:605px) {
+        header{
+            height: 50px;
+        }
+    }

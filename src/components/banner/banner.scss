@@ -1,0 +1,28 @@
+.reach {
+
+    height: 250px;
+    background-color: orangered;
+    display: flex;
+   
+    
+    
+   
+    .content {
+        width: 55%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+        color: white;
+        gap: 8px;
+        .vertical-text {
+            display: flex;
+            flex-direction: column;
+            max-width: 350px;
+           
+          }
+    }
+  }
+  
+ 
+  
+  
